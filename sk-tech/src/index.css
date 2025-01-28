@@ -1,0 +1,30 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body{
+    background: linear-gradient(135deg, #f37aac 25%, transparent 25%) -50px 0,
+                linear-gradient(225deg, #fe80b4 25%, transparent 25%) -50px 0,
+                linear-gradient(315deg, #f08db7 25%, transparent 25%),
+                linear-gradient(45deg, #ee2e7e 25%, transparent 25%);
+    background-size: 100px 100px; /* Adjust the size based on the pattern */
+  
+  color: white;
+}
+  .box{
+    height: 100vh;
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    border-radius: 6%;
+    margin: 12px;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 5px 5px 10px green, 5px 5px 15px rgb(43, 0, 128);
+    color: white;
+  }

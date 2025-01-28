@@ -1,0 +1,21 @@
+footer {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 10px green, 5px 5px 15px rgb(43, 0, 128);
+}
+  @media screen and (min-width:650px) {
+    footer
+    {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+    
+  }
