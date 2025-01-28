@@ -1,0 +1,59 @@
+/* General styling for the container */
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Paragraph styling */
+  .counter-container p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* Button styling */
+  .counter-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover effect for buttons */
+  .counter-container button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Active button effect */
+  .counter-container button:active {
+    background-color: #003f8c;
+    transform: scale(0.95);
+  }
+  
+  /* Total counting text styling */
+  #total-it {
+    background-color: #28a745;
+    color: #fff;
+    cursor: default;
+  }
+  
+  #total-it:hover {
+    background-color: #28a745;
+    transform: none;
+  }
+  
