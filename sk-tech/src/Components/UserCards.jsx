@@ -11,9 +11,6 @@ const UserCards = (props) => {
       <img id='user-image' src={props.image} alt={props.name}></img>
       <p id='user-desc'>{props.desc}</p>
       <button id='btn'>Contact</button>
-    
-      
-      
     </div>
     </>
   )

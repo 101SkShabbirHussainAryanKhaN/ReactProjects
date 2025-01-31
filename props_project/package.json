@@ -1,5 +1,5 @@
 {
-  "name": "state_lifting_project",
+  "name": "props_project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "props_project": "file:",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "state_lifting_project": "file:"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
